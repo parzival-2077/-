@@ -1,1 +1,1 @@
-# controller_for_rosa
+# Контроллер для гирлянды типа "Роса" на базе Arduino Nano
