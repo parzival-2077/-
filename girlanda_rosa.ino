@@ -194,13 +194,12 @@ void loop() {
 
   if (ir.available()) { //обработка кнопок пульта 
     switch(ir.readCommand()){
-      case 0x68: num=0;break; //0
-      case 0x30: num=1;break; //1
-      case 0x18: num=2;break; //2
-      case 0x7A: num=3;break; //3
-      case 0x10: num=4;break; //4
-      case 0x38: num=5;break; //5
-      case 0x5A: num=6;break; //6
+      case 0x30: num=0;break; //1
+      case 0x18: num=1;break; //2
+      case 0x7A: num=2;break; //3
+      case 0x10: num=3;break; //4
+      case 0x38: num=4;break; //5
+      case 0x5A: num=5;break; //6
       case 0xA8: num++;break; //+
       case 0xE0: num--;break; //-
     }
